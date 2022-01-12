@@ -6,3 +6,7 @@
  */
 
 
+void systen_buzzer(void){
+
+	// buzzer fonksiyon
+}
