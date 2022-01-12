@@ -9,4 +9,6 @@
 void systen_buzzer(void){
 
 	// buzzer fonksiyon
+
+	PB4
 }
