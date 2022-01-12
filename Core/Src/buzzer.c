@@ -4,10 +4,10 @@
  *  Created on: Jan 12, 2022
  *      Author: fatih.colak
  */
-#include "gpio.h"
-#include "main.h"
+#include "buzzer.h"
 
-void systen_buzzer_on(void){
+
+void system_buzzer_on(void){
 
 	// buzzer fonksiyon
 
@@ -16,7 +16,7 @@ void systen_buzzer_on(void){
 
 }
 
-void systen_buzzer_off(void){
+void system_buzzer_off(void){
 
 	 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
 
