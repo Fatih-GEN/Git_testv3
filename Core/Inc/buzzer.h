@@ -10,6 +10,6 @@
 
 
 
-void systen_buzzer(void);
-
+void system_buzzer_on(void);
+void systen_buzzer_off(void);
 #endif /* INC_BUZZER_H_ */
