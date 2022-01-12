@@ -9,6 +9,7 @@
 void systen_buzzer(void){
 
 	// buzzer fonksiyon
+#include "gpio.h"
 
 	PB4
 }
