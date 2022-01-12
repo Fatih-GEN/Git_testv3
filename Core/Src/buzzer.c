@@ -11,12 +11,13 @@ void systen_buzzer_on(void){
 
 	// buzzer fonksiyon
 
+// pb4
+	 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
 
-	PB4
 }
 
 void systen_buzzer_off(void){
 
-
+	 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
 
 }
